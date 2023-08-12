@@ -1,0 +1,68 @@
+/* ../styles/register.css */
+
+#register-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+
+  @media screen and (max-width: 1400px) {
+    #register-card {
+      zoom: 100%;
+    }
+    .swal2-popup {
+      font-size: 0.8rem !important;
+    }
+  }
+  
+  #register-title {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 0;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  #name-input,
+  #email-input,
+  #password-input,
+  #photo-input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #register-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    width: 100%;
+  }
+  
+  #register-button:hover {
+    background-color: #0069d9;
+  }
+  
+  .btn-block {
+    margin-top: 20px;
+  }
+  
+  .lead {
+    margin-top: 20px;
+  }
+  
+  .lead a {
+    text-decoration: none;
+  }
+  
+  #register-card p:last-child {
+    margin-bottom: 0;
+  }
+  
